@@ -1,0 +1,20 @@
+fun main() {
+    print("Enter student name: ")
+    val name = readLine()
+    print("Enter enrolment number: ")
+    val enrollmentNo = readLine()
+    print("Enter branch: ")
+    val branch = readLine()
+    print("Enter semester: ")
+    val semester = readLine()
+    print("Enter college name: ")
+    val college = readLine()
+    println()
+    println(" STUDENT INFORMATION ")
+    println("Name: $name")
+    println("Enrolment No: $enrollmentNo")
+    println("Branch: $branch")
+    println("Semester: $semester")
+    println("College: $college")
+
+}
